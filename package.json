@@ -1,7 +1,7 @@
 {
   "name": "discord-server-cloner",
-  "version": "1.0.0",
-  "description": "Fast and easy Discord server cloner website",
+  "version": "2.0.0",
+  "description": "Full-featured Discord server cloner with user accounts and web interface",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -9,7 +9,7 @@
     "build": "cd client && npm run build",
     "install-all": "npm install && cd client && npm install && cd .."
   },
-  "keywords": ["discord", "server", "cloner"],
+  "keywords": ["discord", "server", "cloner", "saas"],
   "author": "Godmodeii",
   "license": "MIT",
   "dependencies": {
@@ -18,9 +18,13 @@
     "dotenv": "^16.3.1",
     "cors": "^2.8.5",
     "axios": "^1.6.0",
-    "crypto": "^1.0.1",
     "express-session": "^1.17.3",
-    "body-parser": "^1.20.2"
+    "body-parser": "^1.20.2",
+    "bcryptjs": "^2.4.3",
+    "sqlite3": "^5.1.6",
+    "jsonwebtoken": "^9.1.0",
+    "uuid": "^9.0.0",
+    "node-cache": "^5.1.2"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
