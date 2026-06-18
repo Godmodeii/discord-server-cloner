@@ -1,0 +1,103 @@
+.settings-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.setting-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: #f5f7fa;
+  border-radius: 6px;
+}
+
+.setting-item label {
+  font-weight: 600;
+  color: #555;
+}
+
+.setting-item span {
+  color: #333;
+}
+
+.progress-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.status-badge.status-processing {
+  background: #e3f2fd;
+  color: #1565c0;
+}
+
+.status-badge.status-completed {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.status-badge.status-failed {
+  background: #ffebee;
+  color: #c62828;
+}
+
+.progress-log {
+  background: #1e1e1e;
+  color: #00ff00;
+  padding: 20px;
+  border-radius: 6px;
+  font-family: monospace;
+  font-size: 12px;
+  max-height: 400px;
+  overflow-y: auto;
+  line-height: 1.6;
+}
+
+.log-line {
+  margin-bottom: 5px;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: #999;
+}
+
+.history-table {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table thead {
+  background: #f5f7fa;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+table th {
+  padding: 12px;
+  text-align: left;
+  font-weight: 600;
+  color: #555;
+}
+
+table td {
+  padding: 12px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+table tbody tr:hover {
+  background: #f9f9f9;
+}

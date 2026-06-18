@@ -1,0 +1,58 @@
+.history-table {
+  overflow-x: auto;
+}
+
+.history-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.history-table thead {
+  background: #f5f7fa;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.history-table th {
+  padding: 12px;
+  text-align: left;
+  font-weight: 600;
+  color: #555;
+}
+
+.history-table td {
+  padding: 12px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.history-table tbody tr:hover {
+  background: #f9f9f9;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.status-badge.status-completed {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.status-badge.status-failed {
+  background: #ffebee;
+  color: #c62828;
+}
+
+.status-badge.status-processing {
+  background: #e3f2fd;
+  color: #1565c0;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: #999;
+}
